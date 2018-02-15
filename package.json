@@ -1,0 +1,48 @@
+{
+  "name": "module-parent-id",
+  "version": "0.1.0",
+  "description": "Get the ID (filename) of module parent.",
+  "keywords": [
+    "module",
+    "parent",
+    "filename",
+    "id"
+  ],
+  "bugs": {
+    "url": "https://github.com/HastiJS/module-parent-id/issues"
+  },
+  "license": "MIT",
+  "author": "Adel Armand <adel.armand@gmail.com>",
+  "files": [
+    "module-parent-id.js",
+    "package.json",
+    "README",
+    "LICENSE",
+    "CHANGELOG"
+  ],
+  "main": "module-parent-id.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HastiJS/module-parent-id"
+  },
+  "dependencies": {
+    "parent-modules": "0.1.1"
+  },
+  "devDependencies": {
+    "eslint": "~4.14.0",
+    "eslint-plugin-jsdoc": "~3.3.1",
+    "mocha": "~5.0.0"
+  },
+  "engines": {
+    "node": ">= 4"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "unit": "mocha",
+    "test": "npm run lint && npm run unit"
+  }
+}
